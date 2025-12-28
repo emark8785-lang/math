@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathMastery | Learn Math Simply</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: var(--light);
+            color: var(--dark);
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .hero {
+            background: #fff;
+            padding: 4rem 5%;
+            text-align: center;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        .lesson-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .formula {
+            background: #f1f5f9;
+            padding: 1rem;
+            border-left: 5px solid var(--primary);
+            font-family: "Courier New", Courier, monospace;
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MathMastery</h1>
+    <nav>
+        <a href="#">Foundations</a>
+        <a href="#">Algebra</a>
+        <a href="#">Geometry</a>
+        <a href="#">Calculus</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Master Mathematics, One Step at a Time</h2>
+    <p>Explore our library of lessons, practice problems, and visual guides.</p>
+    <a href="#" class="btn">Browse All Lessons</a>
+</section>
+
+<div class="container">
+    <div class="lesson-card">
+        <h2>Featured Lesson: The Pythagorean Theorem</h2>
+        <p>In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.</p>
+        
+        <div class="formula">
+            a² + b² = c²
+        </div>
+
+        <h3>Quick Rules:</h3>
+        <ul>
+            <li><strong>Side 'c'</strong> is the longest side (Hypotenuse).</li>
+            <li>Only works for <strong>Right Triangles</strong> (90° angle).</li>
+            <li>Useful for calculating distances and construction.</li>
+        </ul>
+        
+        <a href="#" class="btn">Try Practice Problems</a>
+    </div>
+</div>
+
+</body>
+</html>
